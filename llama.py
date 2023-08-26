@@ -9,11 +9,11 @@ from clarifai_grpc.grpc.api.status import status_code_pb2
 import streamlit as st
 
 # Your PAT (Personal Access Token) can be found in the portal under Authentification
-PAT = st.secrets.PAT
+PAT = '0223cb46e07c4b39ac4fd2248706f58e'
 # Specify the correct user_id/app_id pairings
 # Since you're making inferences outside your app's scope
-USER_ID = st.secrets.USER_ID
-APP_ID = st.secrets.APP_ID
+USER_ID = 'right_dek_27'
+APP_ID = 'generative_ai'
 # Change these to whatever model and text URL you want to use
 WORKFLOW_ID = 'Llama2TutorialWorkflow'
 
